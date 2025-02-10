@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
+    "dot.env": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.8.0"
   },
@@ -18,7 +18,7 @@
     "nodemon": "^2.0.20"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   }
 }
 
@@ -26,7 +26,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-require('dotenv').config();
+require('dot.env').config();
 
 // Initialize Express app
 const app = express();
